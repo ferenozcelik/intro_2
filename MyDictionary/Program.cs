@@ -6,6 +6,7 @@ namespace MyDictionary
     {
         static void Main(string[] args)
         {
+            //test 
             MyDictionary<int, string> myDict = new MyDictionary<int, string>();
 
             myDict.Add(1, "Fatih");
