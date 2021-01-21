@@ -17,7 +17,7 @@ namespace GenericIntro
             T[] tempArray = items; // yeni item ekleyeceğiz fakat alt satırda "new" kullandığımız için
             // önceki değerler yok olacak. tempArray dizisi yok olan bu değerleri yok olma işleminden 
             // önce kendisinde saklayacak ve değerleri bu diziye emanet etmiş olacağız.
-            items = new T[items.Length + 1]; // YENİ dizi oluşturur vedizinin eleman sayısını 
+            items = new T[items.Length + 1]; // YENİ dizi oluşturur ve dizinin eleman sayısını 
                                              // 1 artırır .
 
             for (int i = 0; i < tempArray.Length; i++)
