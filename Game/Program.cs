@@ -56,6 +56,8 @@ namespace Game
             gameSale1.Buy(player1, gameManager1, campaignManager1);
             gameSale1.Buy(player2, gameManager2, campaignManager2);
 
+            Console.WriteLine("ererere");
+
         }
     }
 }
