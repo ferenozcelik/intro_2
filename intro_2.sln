@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "intro_2", "ConsoleApp1\intro_2.csproj", "{BFA147FA-2B8F-439B-BB54-F72458204472}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{6B120244-1F15-42BC-9A86-EE973AAF2DFC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{9EF940D7-28E7-4B45-AE32-410F0EC0DE3F}"
@@ -15,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericIntro", "GenericIntr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictionary", "MyDictionary\MyDictionary.csproj", "{DE60D9E9-5B08-4F9F-91A2-12A2A5678F12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{407B3AD6-77E4-4B34-9DC6-E7DF68803B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{407B3AD6-77E4-4B34-9DC6-E7DF68803B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3_Kredi", "OOP3\OOP3_Kredi.csproj", "{389B6EBE-3AB5-4A47-98B0-8BD31314E949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3_Kredi", "OOP3\OOP3_Kredi.csproj", "{389B6EBE-3AB5-4A47-98B0-8BD31314E949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{BB9E9B72-3E9D-4E61-A5F9-62BFBC1A6AF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BFA147FA-2B8F-439B-BB54-F72458204472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFA147FA-2B8F-439B-BB54-F72458204472}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFA147FA-2B8F-439B-BB54-F72458204472}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFA147FA-2B8F-439B-BB54-F72458204472}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B120244-1F15-42BC-9A86-EE973AAF2DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6B120244-1F15-42BC-9A86-EE973AAF2DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B120244-1F15-42BC-9A86-EE973AAF2DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +53,10 @@ Global
 		{389B6EBE-3AB5-4A47-98B0-8BD31314E949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{389B6EBE-3AB5-4A47-98B0-8BD31314E949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{389B6EBE-3AB5-4A47-98B0-8BD31314E949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9E9B72-3E9D-4E61-A5F9-62BFBC1A6AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9E9B72-3E9D-4E61-A5F9-62BFBC1A6AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9E9B72-3E9D-4E61-A5F9-62BFBC1A6AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9E9B72-3E9D-4E61-A5F9-62BFBC1A6AF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
