@@ -45,7 +45,7 @@ namespace ClassMetotDemo
             Musteri musteri4 = new Musteri
             {
                 Name = "Arzu",
-                Surname = "Uç",
+                Surname = "Uc",
                 Age = 25,
                 Gender = 'F',
                 Id = 190124005
