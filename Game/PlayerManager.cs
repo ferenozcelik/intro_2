@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Game
 {
-    class PlayerManager
+    class PlayerManager : IPlayerService
     {
 
         public void Register(Player player)

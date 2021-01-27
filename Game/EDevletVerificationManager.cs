@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Game
 {
-    class EDevletVerification : IVerificationServices
+    class EDevletVerificationManager : IVerificationServices
     {
         List<string> TcNoDatabase = new List<string>()
         {

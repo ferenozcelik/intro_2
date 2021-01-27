@@ -47,7 +47,7 @@ namespace Game
             campaignManager2.Update();
 
             Console.WriteLine("Verification:");
-            EDevletVerification eDevletVerification = new EDevletVerification();
+            EDevletVerificationManager eDevletVerification = new EDevletVerificationManager();
             eDevletVerification.Verify(player1);
             eDevletVerification.Verify(player2);
 
@@ -56,7 +56,6 @@ namespace Game
             gameSale1.Buy(player1, gameManager1, campaignManager1);
             gameSale1.Buy(player2, gameManager2, campaignManager2);
 
-            Console.WriteLine("ererere");
 
         }
     }
